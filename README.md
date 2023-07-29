@@ -12,3 +12,7 @@ operations include:
 ## Implemented Algorithms
 1. **Fibonacci** (implemented in python) <br>
 finds the element at index n of the fibonacci series with time complexity of O(log(n))
+
+## Python Tricks
+1. **Modify hashing size** <br>
+increasing the hashing value of a dictionary results in a less collisions which means better time complexity. Keep in mind that this also means worse space complexity.
