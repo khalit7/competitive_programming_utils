@@ -11,7 +11,8 @@ operations include:
 
 ## Implemented Algorithms
 1. **Fibonacci** (implemented in python) <br>
-finds the element at index n of the fibonacci series with time complexity of O(log(n))
+finds the element at index n of the fibonacci series with time complexity of O(log(n))<br>
+2. **prefix_sum_2D** (implemented in python) <br>
 
 ## Python Tricks
 1. **Modify hashing size** <br>
