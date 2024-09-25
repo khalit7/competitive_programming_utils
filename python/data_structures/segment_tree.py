@@ -1,6 +1,6 @@
 class SegmentTree:
     # index zero is not included in segment tree for simplicity
-    def init(self,function):
+    def __init__(self,function):
         self.function=(lambda x,y:x+y) if function==sum else function
         self.fill_value = float("inf") if function == min else (float("-inf") if function==max else 0)
     def construct(self,array):
